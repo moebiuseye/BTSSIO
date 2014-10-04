@@ -1,0 +1,31 @@
+# This configuration file contains the default behavior of the 
+# Statikiss framework. You may edit it, but keep in mind that 
+# having a copy of the original somewhere is always good. 
+
+# Be aware that this file is a bash script. 
+
+# Important: some plugins may use specific configuration variables. 
+# See the documentation for each of these plugins. 
+# Often, these plugins will warn you if you have forgotten a mandatory 
+# configuration variable. 
+
+
+# Basics
+export title="BTS SIO"
+export subtitle="SISR"
+export email="null@null.null"
+
+# Technical
+export plugin="plain_markdown"
+export style_inherit="true"
+
+# Always put a trailing slash
+# This here-below line is for no-server websites. 
+export base_url="file://$DST_DIR/"
+
+# This here-below is safe if you have a web server *AND* you are 
+# hosting your skf website at the root of the website. 
+# The only realy safe value is a canonical url, i.e http://example/dir/
+# export base_url="/"
+
+export theme="split"

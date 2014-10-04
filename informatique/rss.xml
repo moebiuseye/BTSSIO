@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+    >
+    <channel>
+      <title>BTS SIO -- SISR</title>
+      <description>
+</description>
+        <lastBuildDate>Fri, 03 Oct 2014 08:50:29 +0200</lastBuildDate>
+        <link>:file:///home/moebiuseye/projets/BTSSIO/informatique</link>
+        <atom:link rel="self" href=":file:///home/moebiuseye/projets/BTSSIO/informatique/rss.xml" />
+        <item>
+            <title>&lt;small&gt;Le 2 Octobre 2014&lt;/small&gt;</title>
+            <description></description>
+            <content:encoded>
+&lt;p&gt;Cours par &lt;em&gt;M. Antoine Bloyet&lt;/em&gt;, référent suppléant de &lt;em&gt;M. Liegeard&lt;/em&gt;.&lt;/p&gt;
+
+&lt;p&gt;Reçu:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Attestation de formation&lt;/li&gt;
+&lt;li&gt;Contrat pédagogique&lt;/li&gt;
+&lt;li&gt;Calendrier de formation&lt;/li&gt;
+&lt;li&gt;Règlement intérieur&lt;/li&gt;
+&lt;li&gt;Emploi du temps.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;h2&gt;Introduction&lt;/h2&gt;
+
+&lt;p&gt;le BTS interroge beaucoup sur l&#39;adaptabilité à l&#39;environnement.&lt;/p&gt;
+
+&lt;p&gt;Matières&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Matières Générales &amp;ndash; Coef 10
+
+&lt;ul&gt;
+&lt;li&gt;E1 &amp;ndash; Culture &amp;amp; Expression
+
+&lt;ul&gt;
+&lt;li&gt;Français &amp;ndash; Coef 2 &amp;ndash; (exam ecrit de 4h)&lt;/li&gt;
+&lt;li&gt;Anglais  &amp;ndash; Coef 2 &amp;ndash; (exam ecrit de 2h &amp;amp; 10 min oral)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;E2 &amp;ndash; Mathématiques / Algo
+
+&lt;ul&gt;
+&lt;li&gt;Math     &amp;ndash; Coef 2 &amp;ndash; (exam ecrit de 2h)&lt;/li&gt;
+&lt;li&gt;Algo     &amp;ndash; Coef 1 &amp;ndash; (oral de 1h)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;E3 &amp;ndash; Management Entreprise &amp;ndash; Coef 3
+
+&lt;ul&gt;
+&lt;li&gt;Eco      &amp;ndash; Coef 3 &amp;ndash; (exam de 4h ecrit)&lt;/li&gt;
+&lt;li&gt;Droit    &amp;ndash;        &amp;ndash; (exam de 4h ecrit)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;E4 &amp;ndash; Étude de cas &amp;ndash;
+
+&lt;ul&gt;
+&lt;li&gt;Conception de solutions &amp;ndash; Coef 4 &amp;ndash; (exam de 4h)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;E5 &amp;ndash; Projet Personnalisé encadré &amp;ndash; Coef 3 &amp;ndash; (oral)&lt;/li&gt;
+&lt;li&gt;E6 &amp;ndash; Parcours de professionnalisation
+
+&lt;ul&gt;
+&lt;li&gt;Entretien d&#39;embauche&lt;/li&gt;
+&lt;li&gt;Création d&#39;un porte-folio&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;Matières Informatiques &amp;ndash; Coef 12
+
+&lt;ul&gt;
+&lt;li&gt;SI1 &amp;ndash; Technologies et Composants (SSA utilisateur)
+
+&lt;ul&gt;
+&lt;li&gt;Déploiement et mise en place d&#39;infra. (Windows/Linux)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;SI2 &amp;ndash; SSA réseaux. (SSA=ACM)&lt;/li&gt;
+&lt;li&gt;SI3 &amp;ndash; Exploitation des données. SGBD/SGBDR -&gt; Langage SQL.&lt;/li&gt;
+&lt;li&gt;SI4 &amp;ndash; Algorithmie&lt;/li&gt;
+&lt;li&gt;SI5 &amp;ndash; Services &amp;amp; Serveurs.
+
+&lt;ul&gt;
+&lt;li&gt;Modèles d&#39;architecture Réseaux (Modèle OSI,ISO)&lt;/li&gt;
+&lt;li&gt;Réseaux Ethernet, règles de fonctionnement de TCP/IP&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content:encoded>
+            <pubDate>Thu, 02 Oct 2014 00:00:00 +0200</pubDate>
+            <link>:file:///home/moebiuseye/projets/BTSSIO/informatique/posts/2014-10-02-TD1.md.html</link>
+            <guid isPermaLink="true">:file:///home/moebiuseye/projets/BTSSIO/informatique/posts/2014-10-02-TD1.md.html</guid>
+        </item>
+        <item>
+            <title>TD2</title>
+            <description></description>
+            <content:encoded>
+&lt;p&gt;&lt;small&gt;Cours par &lt;strong&gt;M. SANHAJI&lt;/strong&gt;, &lt;a href=&quot;mailto:contact.enseignant@orange.fr&quot; title=&quot;Email du professeur&quot;&gt;email&lt;/a&gt;.&lt;/small&gt;&lt;/p&gt;
+
+&lt;h2&gt;Introduction&lt;/h2&gt;
+
+&lt;h3&gt;Introduction générale&lt;/h3&gt;
+
+&lt;p&gt;Pour bien réussir à l&#39;examen, il faut pratiquer des exercices
+d&#39;algorithmique souvent. Les notions et les automatismes
+s&#39;acquièrent par la répétition. Ça nécessite de la volonté, du courage
+et de la conviction.&lt;/p&gt;
+
+&lt;h3&gt;Introduction algorithmique&lt;/h3&gt;
+            </content:encoded>
+            <pubDate>Fri, 03 Oct 2014 00:00:00 +0200</pubDate>
+            <link>:file:///home/moebiuseye/projets/BTSSIO/informatique/posts/2014-10-03-TD2.md.html</link>
+            <guid isPermaLink="true">:file:///home/moebiuseye/projets/BTSSIO/informatique/posts/2014-10-03-TD2.md.html</guid>
+        </item>
+    </channel>
+</rss>

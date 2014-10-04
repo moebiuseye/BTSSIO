@@ -1,0 +1,173 @@
+@import "_colors";
+
+body, div, header, ul.folderlist {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    font-family: $default-font;
+}
+
+body {
+    background-color: $bg-one;
+}
+
+a {
+    color: $link-color;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+div.top {
+    overflow: hidden;
+    display: table;
+    width: 100%;
+    
+    header {
+        padding: 0 0 1em 1em;
+        background-color: $bg-two;
+        background-image: $fluffy-bg;
+        color: $txt-one;
+        display: table-cell;
+        box-shadow: $header-shadow;
+        min-width: 50%;
+        a {
+            color: $top-link-color;
+        }
+    }
+    
+    div.side {
+        text-align: center;
+        display: table-cell;
+        vertical-align: top;
+        background-color: $bg-three;
+        min-height: 200px;
+        min-width: 35%;
+        max-width: 50%;
+        
+        a {
+            color: $top-link-color;
+        }
+        ul.folderlist {
+            li {
+                list-style: none;
+                a {
+                    display: block;
+                    width: 100%;
+                    background-color: $bg-two;
+                    background-image: $fluffy-bg;
+                    box-shadow: $header-shadow;
+                    font-size: 105%;
+                    padding: 0.4em;
+                }
+            }
+        }
+        div.left {
+            white-space: pre-line;
+            background-color: $bg-three;
+            padding: 0.5em;
+            box-shadow: $header-shadow;
+            min-height: 67px;
+            a {
+                color: $txt-three;
+            }
+        }
+    }
+}
+
+div.main {
+    background-color: white;
+    width: 96%;
+    padding: 1em 2% 1em 2%;
+    margin: 0 auto 0 auto;
+    box-shadow: $header-shadow;
+    
+    article {
+        padding: 1em;
+        padding-top: 1px;
+        box-shadow: #737373 0px 1px 1px 2px ;
+        margin-bottom: 25px;
+        h3 {
+            width: 100%;
+            font-size: 140%;
+            a {
+            width: 100%; }
+        }
+    }
+    
+    p {
+        text-indent: 1em;
+        text-align: justify;
+    }
+    
+    h1, h2, h3, h4, h5, h6 {
+        font-weight: bolder;
+    }
+    
+    blockquote {
+        box-shadow: 2px 0px $bg-two inset;
+        padding-left: 10px;
+        text-align: justify;
+        color: $bg-darker;
+    }
+    
+    code {
+        background-color: ($bg-three)+#303030;
+    }
+    pre code {
+        display: block;
+        padding: 10px;
+        box-shadow: $header-shadow;
+    }
+    
+    hr {
+        border: 2px solid $bg-two;
+    }
+}
+
+div.bottom {
+    text-align: right;
+}
+
+/*
+ * BEGIN MOBILE STYLE
+ * */
+
+@media only screen and (max-width: 640px), only screen and (max-device-width: 800px) {
+    .side {
+    }
+    .folderlist li a {
+        font-size: 110%;
+        padding: 0.6em;
+    }
+    
+    .side .left {
+        font-size: 110%;
+    }
+    
+    .main {
+        font-size: 110%;
+        
+        a {
+            padding: 4px;
+            margin: 2px;
+        }
+    }
+}
+
+@media only screen and (max-width: 480px), only screen and (max-device-width: 640px) {
+    .folderlist li a {
+        font-size: 100%;
+        padding: 0.6em;
+    }
+    .side .left {
+        font-size: 100%;
+    }
+    .main {
+        font-size: 100%;
+        
+        a {
+            padding: 4px;
+            margin: 2px;
+        }
+    }
+}

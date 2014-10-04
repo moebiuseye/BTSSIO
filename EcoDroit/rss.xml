@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+    >
+    <channel>
+      <title>BTS SIO -- SISR</title>
+      <description></description>
+        <lastBuildDate>Fri, 03 Oct 2014 08:50:29 +0200</lastBuildDate>
+        <link>:file:///home/moebiuseye/projets/BTSSIO/EcoDroit</link>
+        <atom:link rel="self" href=":file:///home/moebiuseye/projets/BTSSIO/EcoDroit/rss.xml" />
+        <item>
+            <title>TD1 Economie</title>
+            <description></description>
+            <content:encoded>
+&lt;p&gt;Les &lt;strong&gt;administrations&lt;/strong&gt; &lt;em&gt;proposent&lt;/em&gt; des biens et des services aux
+&lt;strong&gt;entreprises&lt;/strong&gt; et aux &lt;strong&gt;ménages&lt;/strong&gt;. Ce sont des services non marchands.
+C&#39;est à dire qu&#39;ils ne vendent pas mais sont financées par les &lt;strong&gt;impots&lt;/strong&gt;
+et autres &lt;strong&gt;taxes&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;La précarité et la flexibilité du travail est la conséquence des deux
+chocs pétroliers. La période des 30 glorieuses est celle du plein emploi.
+Ce sont ces chocs qui on mis fin au plein emploi.&lt;/p&gt;
+
+&lt;p&gt;La &lt;strong&gt;dètte publique&lt;/strong&gt; est liée au &lt;strong&gt;déficite budgétaire&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;déficite budgétaire ←→ dépenses publiques &amp;gt; recettes publiques. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Les &lt;strong&gt;ménages&lt;/strong&gt; ont pour fonction de consommer.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Un ménage = L&#39;ensemble des personnes qui vivent sous le même toit. 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Les &lt;strong&gt;entreprises&lt;/strong&gt; produisent des biens et des services marchands.&lt;/p&gt;
+
+&lt;p&gt;Les &lt;strong&gt;institutions financières&lt;/strong&gt; == Les banques.&lt;/p&gt;
+
+&lt;p&gt;Les &lt;strong&gt;restes du monde&lt;/strong&gt; = Les entreprises, ménages et administrations
+exterieures.&lt;/p&gt;
+
+&lt;h3&gt;Revenus:&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Revenus du travail = Ex: Salaires, Honoraires.&lt;/li&gt;
+&lt;li&gt;Revenus de transfert = Ex: Prestations/allocations sociales.&lt;/li&gt;
+&lt;li&gt;Revenus du capital = Ex: (La rente) loyers reçus, épargne, dividendes.&lt;/li&gt;
+&lt;/ul&gt;
+
+
+&lt;p&gt;Consommation = Utiliser des biens et des services en vue de satisfaire des
+besoins.&lt;/p&gt;
+
+&lt;h3&gt;Aides&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Aides                = Sans contrepartie&lt;/li&gt;
+&lt;li&gt;Préstations Sociales =&lt;/li&gt;
+&lt;li&gt;Sobventions          = Avec contrepartie&lt;/li&gt;
+&lt;/ul&gt;
+
+            </content:encoded>
+            <pubDate>Thu, 02 Oct 2014 00:00:00 +0200</pubDate>
+            <link>:file:///home/moebiuseye/projets/BTSSIO/EcoDroit/posts/2014-10-02-TD1-Economie.md.html</link>
+            <guid isPermaLink="true">:file:///home/moebiuseye/projets/BTSSIO/EcoDroit/posts/2014-10-02-TD1-Economie.md.html</guid>
+        </item>
+    </channel>
+</rss>
