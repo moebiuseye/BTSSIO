@@ -6,7 +6,7 @@ clean:
 	rm -rf ../BTSSIO.www
 
 noremote:
-	skf -r -g ./ ../BTSSIO.www
+	NOREMOTE=1 skf -r -g ./ ../BTSSIO.www
 
 debug:
 	skf -d -r -g ./ ../BTSSIO.www

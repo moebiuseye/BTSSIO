@@ -21,8 +21,13 @@ export style_inherit="true"
 
 # Always put a trailing slash
 # This here-below line is for no-server websites. 
-#export base_url="file://$DST_DIR/"
-export base_url="http://btssio.jeannedhack.org/"
+export base_url
+if [[ -z ${NOREMOTE} ]]
+then
+    base_url="http://btssio.jeannedhack.org/"
+else
+    base_url="file://$DST_DIR/"
+fi
 
 # This here-below is safe if you have a web server *AND* you are 
 # hosting your skf website at the root of the website. 
