@@ -1,3 +1,4 @@
+DESTINATION=jeannedhack:/home/www/jeannedhack.org/btssio/public_html
 
 curdate=`date +"%Y-%m-%d"`
 
@@ -12,7 +13,7 @@ debug:
 
 once:
 	skf -r -g ./ ../BTSSIO.www
-	#rsync -r ../BTSSIO.www/ $(DESTINATION)
+	rsync --delete-after -r ../BTSSIO.www/ $(DESTINATION)
 
 watch:
 	skf -r -w ./ ../BTSSIO.www

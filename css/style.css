@@ -1,11 +1,11 @@
 /*
-$default-font: monospace;
+$default-font: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
 */
 body, div, header, ul.folderlist {
   text-decoration: none;
   margin: 0;
   padding: 0;
-  font-family: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif; }
+  font-family: monospace; }
 
 body {
   background-color: #b3b3b3; }
