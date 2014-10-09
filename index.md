@@ -14,3 +14,5 @@ chacun des sous-dossiers.
 
 Bientôt, je mettrais un fichier opml pour ne pas vous faire cliquer 10 
 fois partout. 
+
+Pour le moment, la structure du site peux changer beaucoup. 

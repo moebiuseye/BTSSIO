@@ -14,6 +14,7 @@ debug:
 once:
 	skf -r -g ./ ../BTSSIO.www
 	rsync --delete-after -r ../BTSSIO.www/ $(DESTINATION)
+	ssh jeannedhack 'chown www-data -R /home/www/jeannedhack.org/btssio/public_html'
 
 watch:
 	skf -r -w ./ ../BTSSIO.www

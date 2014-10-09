@@ -1,6 +1,3 @@
-/*
-$default-font: "Bodoni MT", Didot, "Didot LT STD", "Hoefler Text", Garamond, "Times New Roman", serif;
-*/
 body, div, header, ul.folderlist {
   text-decoration: none;
   margin: 0;
@@ -26,7 +23,8 @@ div.top {
     color: #b3b3b3;
     display: table-cell;
     box-shadow: #404040 0px -4px 3px -3px inset;
-    min-width: 50%; }
+    min-width: 50%;
+    max-width: 55%; }
     div.top header a {
       color: #50bbe9; }
   div.top div.side {
@@ -35,7 +33,7 @@ div.top {
     vertical-align: top;
     background-color: #b3b3b3;
     min-height: 200px;
-    min-width: 35%;
+    min-width: 45%;
     max-width: 50%; }
     div.top div.side a {
       color: #50bbe9; }
@@ -52,11 +50,12 @@ div.top {
     div.top div.side div.left {
       white-space: pre-line;
       background-color: #b3b3b3;
-      padding: 0.5em;
       box-shadow: #404040 0px -4px 3px -3px inset;
       min-height: 67px; }
+      div.top div.side div.left p {
+        text-align: 0px; }
       div.top div.side div.left a {
-        color: #b3b3b3; }
+        color: #006b99; }
 
 div.main {
   background-color: white;
@@ -67,7 +66,7 @@ div.main {
   div.main article {
     padding: 1em;
     padding-top: 1px;
-    box-shadow: #737373 0px 1px 1px 2px;
+    box-shadow: 0px 2px 3px 0px #737373;
     margin-bottom: 25px; }
     div.main article h3 {
       width: 100%;
@@ -85,7 +84,7 @@ div.main {
     text-align: justify;
     color: #404040; }
   div.main code {
-    background-color: #e3e3e3; }
+    min-width: 75%; }
   div.main pre code {
     display: block;
     padding: 10px;

@@ -1,7 +1,6 @@
-<small>Le 2 Octobre 2014</small>
+title: TD1, Présentation des matières
 
-
-Cours par *M. Antoine Bloyet*, référent suppléant de *M. Liegeard*.
+<small>Cours par **M.BLOYET**, [contact].</small>
 
 Reçu: 
 
@@ -42,3 +41,5 @@ Matières
     * SI5 -- Services & Serveurs. 
         * Modèles d'architecture Réseaux (Modèle OSI,ISO)
         * Réseaux Ethernet, règles de fonctionnement de TCP/IP
+
+[contact]:mailto: "Contact du professeur"

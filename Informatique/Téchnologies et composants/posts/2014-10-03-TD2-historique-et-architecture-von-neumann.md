@@ -1,7 +1,6 @@
-title: TD3
+title: TD2, Historique et architecture Von Neumann 
 
 <small>Cours par **M.BLOYET**, [contact].</small>
-
 
 ## Historique
 
@@ -18,9 +17,7 @@ title: TD3
     ^-0   ^-1  ^-2   ^-3  ^-4  ^-5  ^-6  ^-7
 
 C'est une sorte de «code barre» qui représente les inscriptions binaires. 
-Une barre pour un 1. Deux carrés pour un 0. 
-
-Suite à cela, un grand vide. 
+Une barre pour un 1. Deux carrés pour un 0. Suite à cela, un grand vide. 
 
 ### Moyen âge
 
@@ -28,7 +25,7 @@ Ensuite, au moyen âge, le système comptable étant devenu indispensable pour
 le prélèvement de l'impôt, on utilise des calculateurs à roue. 
 
 C'est Pascal, en s'inspirant du boulier chinois (-700 av. JC), qui crée la 
-"Pascaline". C'est une roue crantée. 
+"Pascaline". C'est une machine à roues crantées. 
 
 ### Monde industrialisé
 
@@ -40,18 +37,19 @@ nombres à virgule flottante.
 
 En reprenant tout les travaux précédents, VonNeumann, un hongrois chercha, 
 pendant la seconde guerre mondiale a créer une machine dite «Électronique». 
-Il est exilé aux États-Unis, né en 1903 et mort en 1957.  
+VonNeumann fût à l'époque un exilé aux États-Unis, né en 1903 et mort en 
+1957. 
 
 Il participait déjà aux projets sur la mécanique quantique, aux projets sur 
 la bombe atomique, à l'informatique (machine VonNeumann, 1945) et à 
-l'automatisme cellulaire. Pour mémoriser les programmes, on utilise des 
-cartes perforées. 
+l'automatisme cellulaire. 
 
 Les recherches de VonNeumann ont permis la création de LENIAC. C'est la 
 première machine de calcul électronique réalisée à partir de l'architecture 
-VonNeumann. Cette machine utilise des tubes à vide. (17 468 tubes)
+VonNeumann. Cette machine utilise des tubes à vide. (17 468 tubes). 
+Pour mémoriser les programmes de sa machine, on utilise des cartes perforées. 
 
-Ensuite, on passe à un modèle avec mémoire magnétique. C'est le premier 
+Ensuite, émerge un modèle avec mémoire magnétique. C'est le premier 
 disque dur. Créé par International Business Machine (IBM) en 1956. 
 5 millions de caractères. C'est inférieur à 5Mo. 
 
@@ -93,31 +91,30 @@ VonNeumann :
 
 &nbsp;
 
-    |         |     |                       |     |         |
     | Entrées | --> | Système de traitement | --> | Sorties |
     |         |     |                       |     |         |
     |         |     |  Commandes, mémoires, |     |         |
     |         |     |    Unité de calcul    |     |         |
-    |         |     |                       |     |         |
+
 
 La **mémoire vive** est **volatile**, car il est nécessaire de l'alimenter en 
-permanence pour maintenir ses données. 
+permanence pour maintenir son contenu. Celà est du au fait que cette mémoire 
+est faite de transisors. 
 
-La mémoire vive va être associée à une **mémoire morte**. Celle ci va stocker 
+Est associée à celle-ci une **mémoire morte**, qui va stocker 
 l'information de manière «indélébile» de manière à ce qu'elle soit 
-disponible après un redémarrage. 
-Cette mémoire stock notamment des informations de configuration 
-périphériques. 
+disponible après un redémarrage. Cette mémoire stock notamment des 
+informations de configuration périphériques. 
 
-Elle est donc en relation avec **des mémoires dites 
-auxiliaires ou externes**. Celles ci permettent de stocker des fichiers. 
+Elle est en relation avec des mémoires dites **auxiliaires ou externes**. 
+Celles ci permettent de stocker des fichiers. 
 
 Toutes ces mémoires périphériques ou externes sont reliées à l'unité de 
 calcul par un bus. Il y a une multitude bus, nommés selon la type de 
 périphérique (USB, IDE, ATA, SATA, etc.)
 
 Pour gérer l'utilisation d'un bus, il faut un contrôleur, dont le rôle est 
-de mettre en relation certains périphériques et d'assurer de la bonne 
+de mettre en relation certains périphériques et de s'assurer de la bonne 
 transmission de l'information. Ces contrôleurs portent le même nom que la 
 technologie du périphériques, (USB, IDE, ATA, SATA, PCIx, etc.).
 Ces contrôleurs sont des puces électroniques. 
@@ -218,7 +215,7 @@ centrale de traitement. C'est à dire les périphériques.
 
 L'UCT gère les données par l'intermédiaire de programmes informatiques. 
 
-Un programme est donc une suite d'opérations à effectuer produisant un 
+Un programme est une suite d'opérations à effectuer produisant un 
 résultat. L'ensemble de ces opérations s'appelle des instructions. C'est à 
 dire une opération élémentaire comprise par un processeur. 
 
@@ -238,10 +235,9 @@ Cela représente un jeu d'instruction.
 
 Par exemple:
 
-    JNE <Valeur> <Valeur> <Adresse> ; Veut dire «Jump If not Equal» et 
-    ; apparait à partir de … 
-
-<!-- TODO : Research the architecture for JNE -->
+    CMP <Adresse_cible_donnée> <Adresse_cible_donnée> ; CMP  
+    JNE <Adresse_cible_instruction> ; Veut dire «Jump If not Equal» et 
+    ; apparait à partir de l'architecture x86
 
 La **zone opération** est divisée en deux parties: le code de 
 l'opération, décodable par la machine et suivi d'un code complémentaire, 
@@ -256,29 +252,37 @@ Il existe différentes manières de joindre l'information. C'est l'adressage.
 * Par une localisation : «Va dans le registre D»
 * Une «transaction»    : «Va en D4 + 2»
 
+Exemple en assembleur:
+
+    jmp $0x3e4f      ; Va à l'adresse 0x3e4f
+    jmp %eax         ; Va à l'adresse indiquée par le registre EAX
+    jmp $0x00b4+%eax ; Va à l'adresse $0x00B4h + le contenu du registre EAX
+
 Ces adresses sont utilisées par l'UAL. 
 
 ### Les composants réels de l'UCT
 
 <!-- TODO: intégrer le schémas 7.5 -->
 
-    | RAM         |
-    |-------------|             ^ ^ ^ ^ ^ ^ ^ ^ ^
-    |             |             | | | | | | | | |
-    |             |            |``````````````````|
-    |             |            |  Microcommandes  |
-    |             |            |__________________|
-    |             |               ^                
-    |             |               |                
-    |             |               |                
-    | …           |  |````|    |````````````|     |`````````````````|
-    | Instr. 6    |  | CO |<-- | Séquenceur | --> | Registre d'état |
-    | Instr. 5    |  |____|    |____________|     |_________________|
-    | Instr. 4    |               ^        
-    | Instr. 3    |               |        
-    | Instr. 2    |            |``````````|
-    | Instr. 1    | ---------> | Décodeur |
-                               |__________|
+~~~text
+| RAM         |
+|-------------|             ^ ^ ^ ^ ^ ^ ^ ^ ^
+|             |             | | | | | | | | |
+|             |            |``````````````````|
+|             |            |  Microcommandes  |
+|             |            |__________________|
+|             |               ^                
+|             |               |                
+|             |               |                
+| …           |  |````|    |````````````|     |`````````````````|
+| Instr. 6    |  | CO |<-- | Séquenceur | --> | Registre d'état |
+| Instr. 5    |  |____|    |____________|     |_________________|
+| Instr. 4    |               ^        
+| Instr. 3    |               |        
+| Instr. 2    |            |``````````|
+| Instr. 1    | ---------> | Décodeur |
+                           |__________|
+~~~
 
 CO = Compteur Ordinal
 
