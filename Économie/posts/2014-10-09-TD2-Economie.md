@@ -26,12 +26,6 @@ d'automatiser des taches auparavent effectuées par des salariés.
 
 **Capitalistique** : Le fait d'utiliser plus d'équipement. 
 
-    T=Heures de Travail
-    K=Capital
-
-    T/K = 4/3 × Facteur = 200
-    T/K = 4x/3x × Facteur = 400
-
 1. **Taux de variation** ou **Taux de croissance** est définie par cette 
 relation:
 
@@ -77,3 +71,62 @@ Dans l'exemple du polycopié, c'est le facteur capital qui est déterminant.
     PIB + M = C + I ± Stocks + X
 
 **FBCF** : Formation Brut de Capital Fixe = Investissement. 
+
+## TVA 
+
+La **Taxe sur la Valeur Ajoutée**. 
+
+La TVA est la taxe qui apporte près de 50% des revenus. C'est un impôt 
+souvent considéré comme le plus injuste par ce qu'il repose sur l'ensemble 
+de la société sans considération sur la situation du contribuable. 
+
+La Valeur ajoutée est la richesse crée par les organisations produtives 
+(entreprises). Elle se mesure de la manière suivante: 
+
+~~~
+Valeur de la prod. = Chiffre d'Affaire + Stocks
+
+
+Valeur Ajoutée = Valeur de la prod. - Valeur de la consommation intermédiaire
+~~~
+
+Consommation intermediaire = Valeur des biens transformés, détruits et/ou 
+transformés au cours de la production. Matières premières, énergie, produits 
+semi-finis. 
+
+<small> TODO : Inclure le schemas "La partage de la valeur ajoutée"</small>
+
+E.B.E = Excedents Brut d'Exploitation. 
+
+* Investissement :
+    * Investissement de remplacement = Ammortissement. 
+    * Investissement de capacité     = Achat d'un équipement supplémentaire. 
+    * Investissement de productivité. 
+
+**L'ammortissement** de l'E.B.E fait partie de l'investissement. C'est la mise 
+de coté d'une somme afin de remplacer à terme les moyens de production. 
+
+* On retranche aux bénéfices avant impôts. 
+    * **Dividendes** : Rémunération des actionnaires. 
+    * **Imôts sur les bénéfices**
+
+
+~~~
+                 /```` Travailleurs -> Salaires
+                /
+               /`````` États        -> Impôts
+Valeur Aj. ---<
+               \______ Actionnaires -> Dividendes
+                \
+                 \_____ Entreprise  -> Bénéfices mis en reserve + Ammortissement
+                  \
+                   \___ Banques     -> intérêts
+~~~
+
+Une hausse des salaires impacte le niveau des profits dans la valeur 
+ajoutée. Cette part d'E.B.E diminue. 
+
+Les salaires et l'E.B.E peuvent ils simultanément augmenter? Oui. Dans le 
+cas où la Valeur Ajoutée augmente. 
+
+
