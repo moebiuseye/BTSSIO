@@ -1,28 +1,28 @@
-title: TD1 Economie
+title: TD1 Économie
 
 Les **administrations** *proposent* des biens et des services aux 
 **entreprises** et aux **ménages**. Ce sont des services non marchands. 
-C'est à dire qu'ils ne vendent pas mais sont financées par les **impots** 
+C'est à dire qu'ils ne vendent pas mais sont financées par les **impôts** 
 et autres **taxes**. 
 
 La précarité et la flexibilité du travail est la conséquence des deux 
 chocs pétroliers. La période des 30 glorieuses est celle du plein emploi. 
 Ce sont ces chocs qui on mis fin au plein emploi. 
 
-La **dètte publique** est liée au **déficite budgétaire**. 
+La **dette publique** est liée au **déficit budgétaire**. 
 
-    déficite budgétaire ←→ dépenses publiques > recettes publiques. 
+    déficit budgétaire ←→ dépenses publiques > recettes publiques. 
 
-Les **ménages** ont pour fonction de consommer. 
+Les **ménages** ont pour fonction de consommer. Un ménage, c'est 
+l'ensemble des personnes qui vivent sous le même toit. 
 
-    Un ménage = L'ensemble des personnes qui vivent sous le même toit. 
+Les **entreprises** produisent des biens et des services marchands. C'est 
+à dire qu'elles **vendent** ces biens ou services. 
 
-Les **entreprises** produisent des biens et des services marchands. 
+Les **institutions financières** sont les banques. 
 
-Les **institutions financières** == Les banques. 
-
-Les **restes du monde** = Les entreprises, ménages et administrations 
-exterieures. 
+Les **restes du monde** sont les entreprises, ménages et administrations 
+extérieures. 
 
 ### Revenus: 
 
@@ -36,5 +36,5 @@ besoins.
 ### Aides
 
 * Aides                = Sans contrepartie
-* Préstations Sociales = 
-* Sobventions          = Avec contrepartie
+* Prestations Sociales = 
+* Subventions          = Avec contrepartie
