@@ -12,7 +12,7 @@
 
 # Basics
 export title="BTS SIO"
-export subtitle="SISR"
+export subtitle="0x10 = 16"
 export email="null@null.null"
 
 # Technical

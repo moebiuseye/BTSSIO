@@ -13,6 +13,7 @@ debug:
 
 once:
 	skf -r -g ./ ../BTSSIO.www
+	./makeopml.sh ../BTSSIO.www \; true
 	rsync --delete-after -r ../BTSSIO.www/ $(DESTINATION)
 	ssh jeannedhack 'chown www-data -R /home/www/jeannedhack.org/btssio/public_html'
 
