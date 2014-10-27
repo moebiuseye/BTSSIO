@@ -1,5 +1,4 @@
 OLDPWD="$PWD"
-pwd
 cd .//Informatique/Algorithmique/python
 tree -H './' > index.html
 plugin="just_copy"

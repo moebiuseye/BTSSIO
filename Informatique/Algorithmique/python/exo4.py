@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 #
-#  exo1.py
+#  exo4.py
 #  
-#  Copyright 2014 Samir Chaouki <samir@cha-remove-ouki.fr>
+#  Copyright 2014 Samir Chaouki <moebius.eye@gmail.com>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by
@@ -21,10 +21,16 @@
 #  MA 02110-1301, USA.
 
 s=0
-for i in range(5):
-    n = int(input("Entrez un entier positif : "))
-    while n < 0:
-        n = int(input("  Valeur erronée !! Entrez une valeur positive : "))
-    s += n
+i=0
+n=0
+while i != -1:
+    s+=i
+    n+=1
+    i = int(input("Entrez un nombre positif ou -1 pour terminer : "))
+    while i < -1:
+        i = int(
+            input("Valeur négative!!! Entrez un nombre de nouveau : ")
+            )
 
-print("La somme des entiers entrés est %d." % s)
+n = float(n-1)
+print("La moyenne des nombres est %f ." % (s/n) )
