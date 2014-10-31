@@ -5,13 +5,14 @@ curdate=`date +"%Y-%m-%d"`
 clean:
 	rm -rf ../BTSSIO.www
 
-noremote:
+noremote:clean
 	NOREMOTE=1 skf -r -g ./ ../BTSSIO.www
+	./makeopml.sh ../BTSSIO.www \; true
 
 debug:
 	skf -d -r -g ./ ../BTSSIO.www
 
-once:
+once:clean
 	skf -r -g ./ ../BTSSIO.www
 	./makeopml.sh ../BTSSIO.www \; true
 	rsync --delete-after -r ../BTSSIO.www/ $(DESTINATION)

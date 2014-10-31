@@ -17,7 +17,7 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 
-exec > "$1/btssio.opml"
+exec > "$1/btssio.opml.xml"
 
 cat << EOF
 <?xml version="1.0" encoding="utf-8"?>
@@ -43,9 +43,9 @@ for k in "${!RSSFILES[@]}"
 do
     DIRNAME="$(dirname "${RSSFILES[$k]#\./}")"
     SKFRC="${SRC_DIR}/${DIRNAME}/.skfrc"
-    [[ -f $SKFRC ]] && source "$SKFRC"
+    [[ -f $SKFRC ]] && source "$SKFRC" > /dev/null
     cat - << EOF
-    <outline type="rss" text="${title} -- ${subtitle}" xmlUrl=${base_url}${DIRNAME}/rss.xml" htmlUrl="${base_url}${DIRNAME}/index.html"/>
+    <outline type="rss" text="${title} -- ${subtitle}" xmlUrl="${base_url}${DIRNAME}/rss.xml" htmlUrl="${base_url}${DIRNAME}/index.html"/>
 EOF
 done
 
