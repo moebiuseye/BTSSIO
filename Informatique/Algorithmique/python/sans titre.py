@@ -20,10 +20,3 @@
 #  Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston,
 #  MA 02110-1301, USA.
 
-
-def main(args):
-    return 0
-
-if __name__ == '__main__':
-    import sys
-    sys.exit(main(sys.argv))

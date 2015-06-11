@@ -1,0 +1,6 @@
+plugin=just_copy
+
+OLDPWD=$PWD
+cd /home/moebiuseye/projets/skf/BTSSIO/Droit/papers
+tree -H "${base_url}Droit/papers" ./ | grep -v '>index.html<' > index.html
+cd $OLDPWD

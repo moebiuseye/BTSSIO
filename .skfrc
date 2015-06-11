@@ -22,11 +22,11 @@ export style_inherit="true"
 export base_url
 if [[ -z ${NOREMOTE} ]]
 then
-    base_url="http://btssio.jeannedhack.org/"
+    base_url="http://btssio.chaouki.fr/"
 else
     base_url="file://$DST_DIR/"
 fi
 
-export theme="split"
+export theme="bootstrap"
 
 export excerpt=20

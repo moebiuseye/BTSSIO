@@ -19,7 +19,7 @@ indice.
 en algo, on déclare un tableau comme ceci:
 
 ~~~
-nom_tableau[nbre_valeurs]: Tablea de <type>
+nom_tableau[nbre_valeurs]: Tableau de <type>
 ~~~
 
 En algo, la première case d'un tableau a pour indice 1. 

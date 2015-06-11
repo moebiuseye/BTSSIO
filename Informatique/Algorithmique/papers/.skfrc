@@ -1,0 +1,5 @@
+plugin=just_copy
+OLDPWD=$PWD
+cd /home/moebiuseye/projets/skf/BTSSIO/Informatique/Algorithmique/papers
+tree -H "${base_url}Informatique/Algorithmique/papers" ./ | grep -v '>index.html<' > index.html
+cd $OLDPWD

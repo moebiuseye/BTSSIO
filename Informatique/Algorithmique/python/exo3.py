@@ -3,7 +3,7 @@
 #
 #  exo3.py
 #  
-#  Copyright 2014 Samir Chaouki <moebius.eye@gmail.com>
+#  Copyright 2014 Samir Chaouki <samir@chaouki.fr>
 #  
 #  This program is free software; you can redistribute it and/or modify
 #  it under the terms of the GNU General Public License as published by

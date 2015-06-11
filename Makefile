@@ -1,4 +1,4 @@
-DESTINATION=jeannedhack:/home/www/jeannedhack.org/btssio/public_html
+DESTINATION=jeannedhack:/home/www/chaouki.fr/btssio/public_html
 
 curdate=`date +"%Y-%m-%d"`
 
@@ -16,7 +16,7 @@ once:clean
 	skf -r -g ./ ../BTSSIO.www
 	./makeopml.sh ../BTSSIO.www \; true
 	rsync --delete-after -r ../BTSSIO.www/ $(DESTINATION)
-	ssh jeannedhack 'chown www-data -R /home/www/jeannedhack.org/btssio/public_html'
+	ssh jeannedhack 'chown www-data -R /home/www/chaouki.fr/btssio/public_html'
 
 watch:
 	skf -r -w ./ ../BTSSIO.www
