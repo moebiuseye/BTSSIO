@@ -151,7 +151,7 @@ Le processus de déstruction créatrice renvoie à l'apparition du progrès
 téchnique avec des branches motrices qui transforment complètement les 
 activités économiques et sociales en détruisant les anciens procedés. 
 
-## II . Les normes
+## II − Les normes
 
 Une norme renvoie à un ensemble de comportements attendus par le produit. 
 Il existe généralement un référentiel qui est publié par un organisme de 
@@ -165,3 +165,80 @@ un notion verticale (un outil est compatible s'il respecte
 l'environnement d'un autre outil). L'interopérabilité renvoie à une 
 dimension transversale (c'est le fait pour des outils de pouvoir 
 fonctionner ensemble). 
+
+## III − Développement économique, TIC et développement durable 
+
+Les informaticiens doivent prendre en compte des normes environnementales 
+dans la mise au point de produits innovants mais aussi lorsque des 
+infrastructures sont réalisées. Cela signifie que le secteur informatique 
+doit rendre compatible la combinaison productive avec des préoccupations 
+écologiques. 
+
+La croissance correspond à l'augmentation durable de la production 
+(mesurée avec le Produit Intérieure Brut). Le PIB est la somme des 
+richesses créées sur le territoire. 
+
+Le développement économique traduit l'ensemble des transformations 
+économiques, sociales, culturelles et politiques lorsque le niveau de 
+vie augmente. 
+
+Le développement doit être associé à la notion de développement durable 
+dont l'origine remonte au rapport **Brundtland**. 
+
+Le développement durable met en avant les conditions de vie, le bien 
+être des individus, c'est à dire une développement qui répond aux besoins 
+du présent sans compromettre la capacité des générations futures à 
+répondre à leur propres besoins. 
+
+La notion de développement durable renvoie à trois dimensions: 
+
+* Les intérêts des générations actuelles face à ceux des générations 
+    futures. 
+* Les intérêts des pays développés face à ceux des Pays En Développement 
+    (**PED**). 
+* Les besoins toujours plus importants des être humains, alors que nos 
+    ressources sont limitées. 
+
+Cela se résume en deux axes: l'axe social, et l'axe écologique. 
+
+
+---
+
+Michael Porter nous dit que les besoins en services allaient s'accentuer − 
+ce qu'il appelle une intensité informationnelle − avec les nouvelles 
+technologies. 
+
+À travers le développement des TIC, il y a une modification du rôle du 
+personnel vis a vis des clients mais aussi vis à vis des entreprises 
+elles mêmes. 
+
+Les TIC peuvent être assimilées par un certain nombre de clients comme 
+une volonté plus ou moins délibérée de négliger les demandes jugées 
+superflues. De plus en plus, les entreprises incitent les clients à 
+rechercher l'information en ligne. 
+
+Certains consommateurs ne savent psa utiliser Internet. Ils sont mis à 
+l'écart par les entreprises "Pure player". 
+
+## II − Les types de relation
+
+### 1. Le B2B
+
+Le B2B désigne une relation commerciale entre deux entreprises 
+en utilisant internet pour l'échange d'information. 
+
+La relation B2B permet d'intégrer une multitude de paramètres. 
+
+### 2. Le B2C
+
+Il ne s'agit pas seulement de vente mais également de tout les 
+échanges qu'il peut y avoir entre l'entreprise et le client. 
+
+
+### 3. Le B2A
+
+C'est une relation commerciale entre une entreprise et une administration. 
+
+### 4. Le C2C
+
+

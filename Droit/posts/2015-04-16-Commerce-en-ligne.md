@@ -135,7 +135,7 @@ l'avenir de recevoir de nouvelles offres commerciales.
 Le cyber-vendeur doit aménager un procédé électronique dans cette 
 perspective. C'est l'*Opt-out*. 
 
-### 3. L'obligation de loyauté et de transparence. 
+#### 3. L'obligation de loyauté et de transparence. 
 
 L'offre commerciale doit avoir les caractéristiques suivantes: 
 
@@ -143,3 +143,58 @@ L'offre commerciale doit avoir les caractéristiques suivantes:
 * Elle doit permettre clairement d'identifier la personne à l'origine 
     de l'offre commerciale. 
 * Elle ne doit être ni mensongère ni susceptible de tromper l'internaute. 
+
+## B − 
+
+### La formation du contrat électronique
+
+Au delà des **conditions générales de vente** (consentement non vicié, 
+objet licite. cause licite, capacité juridique) il existe des règles 
+spécifiques à la formation du contrat électronique: 
+
+* Le cyber-marchand doit informer l'acheteur sur les étapes à suivre pour 
+    conclure le contrat (Comment sélectionner le produit, les modes de 
+    paiement proposées...) Et sur les moyens techniques permettant de 
+    rectifier erreurs. Pour être valable, le contrat électronique doit 
+    permettre au client de vérifier en ligne le détail de sa commande 
+    ainsi que le prix total de la facture. 
+* Le contrat ne deviens définitif que lorsque le consommateur a confirmé 
+    sa commande par le procédé du double clic. Ce procédé n'est obligatoire 
+    que dans le cadre d'une relation B2C. 
+* Le vendeur adresse à l'acheteur un accusé de réception électronique dans 
+les meilleurs délais. 
+* L'acheteur bénéficie d'un droit de rétractation de 14 jours (dans une 
+    relation B2C) pour annuler le contrat de prestation de service 
+    (à partir de la validation de la commande) ou pour retourner le 
+    produit (à partir de la livraison). 
+    Il existe toutefois des exceptions 
+    (les consommables, les journaux, réservations, dans une relation B2B). 
+
+### L'exécution du contrat électronique
+
+Le vendeur est responsable vis à vis de l'acheteur des dommages subis en 
+cas de non-respect de ces obligations, et cela même si c'est un 
+intermédiaire (un transporteur, par exemple) qui serait fautif. 
+Dans ce dernier cas, le vendeur se retournera contre le transporteur. 
+
+Il est interdit d'insérer dans le contrat de vente une clause 
+d'irresponsabilité. Qui serait qualifiée d'abusive par les juges. 
+
+Le marchand doit respecter les garanties commerciales prévues au contrat. 
+Par ailleurs, il doit assurer l'acheteur que le bien sera exempt de vices 
+cachés, respectueux de la sécurité, et conforme à la commande. 
+
+Seul trois causes peuvent permettre au vendeur de s'exonérer de sa 
+responsabilité: 
+
+* La faute de l'acheteur. 
+* Le fait imprévisible et insurmontable d'un tiers étranger au contrat. 
+* La force majeure. 
+
+Le fournisseur doit exécuter la commande au plus tard dans un délai de 
+30 jours à compter du jour suivant celui où le consommateur a transmis sa 
+commande au fournisseur sauf si les parties en ont convenu autrement. 
+En cas d'indisponibilité du bien, le consommateur doit en être informé et 
+doit pouvoir être remboursé dans les 30 jours. 
+Le fournisseur peut proposer un bien équivalent en cas d'indisponibilité, 
+mais il y a obligation que cette clause soit présente dans les CGV. 
